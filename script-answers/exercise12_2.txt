@@ -1,0 +1,18 @@
+Script started on 2022-09-06 15:19:56+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+pomasz@DESKTOP-QUSHKTT:/mnt/c/WINDOWS/system32$ docker run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+2b55860d4c66: Pull complete
+Digest: sha256:20fa2d7bb4de7723f542be5923b06c4d704370f0390e4ae9e1c833c8785644c1
+Status: Downloaded newer image for ubuntu:latest
+root@4eaac680284f:/# mkdir /usr/src/app
+root@4eaac680284f:/# touch /usr/src/app/index.js
+root@4eaac680284f:/# exit
+exit
+pomasz@DESKTOP-QUSHKTT:/mnt/c/WINDOWS/system32$ exit
+exit
+
+Script done on 2022-09-06 15:22:10+02:00 [COMMAND_EXIT_CODE="0"]
