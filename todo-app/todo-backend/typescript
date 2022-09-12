@@ -1,0 +1,869 @@
+Script started on 2022-09-08 11:41:59+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ exitdocker exec -it todo-backend-mongo-1 bashmongo[1Pbashmongo[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker exec -it todo-backend-mongo-1 mongo[K[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C-compose -f docker-compose.dev.yml up -d
+[1A[1B[0G[?25l[+] Running 1/0
+[34m ⠿ Network todo-backend_default    Created                                                                         0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Network todo-backend_default    Created                                                                         0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Network todo-backend_default    Created                                                                         0.0s
+[0m[34m ⠿ Container todo-backend-mongo-1  Started                                                                         0.5s
+[0m[?25h]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker exect[K -it mongosh -u r oot -p example
+Error: No such container: mongosh
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker exec -it mongosh -u root -p example[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mongosh -u r[C[1@o[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct mongosh -u [1@r[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co mongosh -u[1@ [A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd mongosh -[1@u[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co mongosh [1@-[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- mongosh[1@ [A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb mongos[1@h[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca mongo[1@s[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc mong[1@o[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck mon[1@g[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce mo[1@n[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn m[1@o[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd [1@m[1@-[1@m[1@o[1@n[1@g[1@o[1@-[1@1
+]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6319b90c5daf436cda7088e2
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.4[0m
+Using MongoDB:		6.0.1
+[1m[33mUsing Mongosh[0m:		1.5.4
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2022-09-08T09:42:13.612+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2022-09-08T09:42:14.209+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+   2022-09-08T09:42:14.209+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1m[33m------[0m
+   Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+   metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+   
+   The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+   and anyone you share the URL with. MongoDB may use this information to make product
+   improvements and to suggest MongoDB products and deployment options to you.
+   
+   To enable free monitoring, run the following command: db.enableFreeMonitoring()
+   To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         12.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   40.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId("6319b8f45a2c4705760b76fb"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("6319b8f45a2c4705760b76fc"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertOne()[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m)[34G[1D[1G[0Jthe_database> db.todos.insertOne([44m)[49m[33G[1G[0Jthe_database> db.todos.insertOne{([44m)[49m[34G[1G[0Jthe_database> db.todos.insertOne{}([44m)[49m[35G[1G[0Jthe_database> db.todos.insertOne{([44m)[49m[34G[1G[0Jthe_database> db.todos.insertOne([44m)[49m[33G[1C[1G[0Jthe_database> db.todos.insertOne[44m([49m)[34G[1G[0Jthe_database> db.todos.insertOne[44m([49m{)[35G[1G[0Jthe_database> db.todos.insertOne[44m([49m{})[36G[1D[1G[0Jthe_database> db.todos.insertOne([44m{[49m})[35G[1G[0Jthe_database> db.todos.insertOne({[32m"})[39m[36G[1G[0Jthe_database> db.todos.insertOne({[32m"t})[39m[37G[1G[0Jthe_database> db.todos.insertOne({[32m"te})[39m[38G[1G[0Jthe_database> db.todos.insertOne({[32m"tex})[39m[39G[1G[0Jthe_database> db.todos.insertOne({[32m"text})[39m[40G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m})[41G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m:})[42G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: })[43G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"})[39m[44G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"E})[39m[45G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Ex})[39m[46G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exe})[39m[47G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exer})[39m[48G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exerc})[39m[49G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exerci})[39m[50G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercis})[39m[51G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise})[39m[52G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise })[39m[53G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 1})[39m[54G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12})[39m[55G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.})[39m[56G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8})[39m[57G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m})[58G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m,})[59G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, })[60G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, d})[61G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, })[60G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"})[39m[61G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"d})[39m[62G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"do})[39m[63G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"don})[39m[64G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done})[39m[65G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m})[66G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m:})[67G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m:f})[68G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m:})[67G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: })[68G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: f})[69G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: fa})[70G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: fal})[71G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: fals})[72G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: [33mfalse[39m})[73G[1C[1G[0Jthe_database> db.todos.insertOne[44m([49m{[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: [33mfalse[39m})[74G[1C[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: [33mfalse[39m})[75G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("6319b9a74c0976a955bcf409")
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({[32m"text"[39m: [32m"Exercise 12.8"[39m, [32m"done"[39m: [33mfalse[39m})[75G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId("6319b8f45a2c4705760b76fb"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("6319b8f45a2c4705760b76fc"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("6319b9a74c0976a955bcf409"),
+    text: [32m'Exercise 12.8'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId("6319b8f45a2c4705760b76fb"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("6319b8f45a2c4705760b76fc"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("6319b9a74c0976a955bcf409"),
+    text: [32m'Exercise 12.8'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+[1G[0Jthe_database> [15Gexit
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker exec -it todo-backend-mongo-1 mongosh -u root -p example[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmongosh -u ro[21P[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C-compose -f docker-comp[Cse.dev.yml up -d[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker-compose -f docker-compose.dev.yml up -d[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it todo-backend-mongo-1 bashmongo[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker exec -it todo-backend-mongo-1 mongo[K[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C-compose -f docker-compose.dev.yml up -d[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it todo-backend-mongo-1 bash[K[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[9Pcontainer ls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-compose -f docker-compose.dev.yml up -d
+service "mongo" refers to undefined volume mongo_data: invalid compose project
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml up -d
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ redis Pulling                                                                                                   0.1s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠙ redis Pulling                                                                                                   0.2s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠹ redis Pulling                                                                                                   0.3s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠸ redis Pulling                                                                                                   0.4s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠼ redis Pulling                                                                                                   0.5s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠴ redis Pulling                                                                                                   0.6s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠦ redis Pulling                                                                                                   0.7s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠧ redis Pulling                                                                                                   0.8s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠇ redis Pulling                                                                                                   0.9s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠏ redis Pulling                                                                                                   1.0s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠋ redis Pulling                                                                                                   1.1s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠙ redis Pulling                                                                                                   1.2s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠹ redis Pulling                                                                                                   1.3s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠸ redis Pulling                                                                                                   1.4s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠼ redis Pulling                                                                                                   1.5s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠴ redis Pulling                                                                                                   1.6s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠦ redis Pulling                                                                                                   1.7s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠧ redis Pulling                                                                                                   1.8s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠇ redis Pulling                                                                                                   1.9s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠏ redis Pulling                                                                                                   2.0s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠋ redis Pulling                                                                                                   2.1s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠙ redis Pulling                                                                                                   2.2s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠹ redis Pulling                                                                                                   2.3s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠸ redis Pulling                                                                                                   2.4s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠼ redis Pulling                                                                                                   2.5s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠴ redis Pulling                                                                                                   2.6s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠦ redis Pulling                                                                                                   2.7s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠧ redis Pulling                                                                                                   2.8s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠇ redis Pulling                                                                                                   2.9s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠏ redis Pulling                                                                                                   3.0s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠋ redis Pulling                                                                                                   3.1s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠙ redis Pulling                                                                                                   3.2s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠹ redis Pulling                                                                                                   3.3s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠸ redis Pulling                                                                                                   3.4s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠼ redis Pulling                                                                                                   3.5s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠴ redis Pulling                                                                                                   3.6s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠦ redis Pulling                                                                                                   3.7s
+[0m[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+[37m ⠧ redis Pulling                                                                                                   3.8s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠋ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.0s
+[0m[37m   ⠋ f0036f71a6fe Pulling fs layer                                                                                 0.0s
+[0m[37m   ⠋ cd7ddcecb993 Pulling fs layer                                                                                 0.0s
+[0m[37m   ⠋ 8cfc9a467ed7 Waiting                                                                                          0.0s
+[0m[37m   ⠋ 2a9998409df9 Waiting                                                                                          0.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠇ redis Pulling                                                                                                   3.9s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠙ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.1s
+[0m[37m   ⠙ f0036f71a6fe Pulling fs layer                                                                                 0.1s
+[0m[37m   ⠙ cd7ddcecb993 Pulling fs layer                                                                                 0.1s
+[0m[37m   ⠙ 8cfc9a467ed7 Waiting                                                                                          0.1s
+[0m[37m   ⠙ 2a9998409df9 Waiting                                                                                          0.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠏ redis Pulling                                                                                                   4.0s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠹ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.2s
+[0m[37m   ⠹ f0036f71a6fe Pulling fs layer                                                                                 0.2s
+[0m[37m   ⠹ cd7ddcecb993 Pulling fs layer                                                                                 0.2s
+[0m[37m   ⠹ 8cfc9a467ed7 Waiting                                                                                          0.2s
+[0m[37m   ⠹ 2a9998409df9 Waiting                                                                                          0.2s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠋ redis Pulling                                                                                                   4.1s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠸ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.3s
+[0m[37m   ⠸ f0036f71a6fe Pulling fs layer                                                                                 0.3s
+[0m[37m   ⠸ cd7ddcecb993 Pulling fs layer                                                                                 0.3s
+[0m[37m   ⠸ 8cfc9a467ed7 Waiting                                                                                          0.3s
+[0m[37m   ⠸ 2a9998409df9 Waiting                                                                                          0.3s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠙ redis Pulling                                                                                                   4.2s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠼ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.4s
+[0m[37m   ⠼ f0036f71a6fe Pulling fs layer                                                                                 0.4s
+[0m[37m   ⠼ cd7ddcecb993 Pulling fs layer                                                                                 0.4s
+[0m[37m   ⠼ 8cfc9a467ed7 Waiting                                                                                          0.4s
+[0m[37m   ⠼ 2a9998409df9 Waiting                                                                                          0.4s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠹ redis Pulling                                                                                                   4.3s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠴ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.5s
+[0m[37m   ⠴ f0036f71a6fe Pulling fs layer                                                                                 0.5s
+[0m[37m   ⠴ cd7ddcecb993 Pulling fs layer                                                                                 0.5s
+[0m[37m   ⠴ 8cfc9a467ed7 Waiting                                                                                          0.5s
+[0m[37m   ⠴ 2a9998409df9 Waiting                                                                                          0.5s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠸ redis Pulling                                                                                                   4.4s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠦ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.6s
+[0m[37m   ⠦ f0036f71a6fe Pulling fs layer                                                                                 0.6s
+[0m[37m   ⠦ cd7ddcecb993 Pulling fs layer                                                                                 0.6s
+[0m[37m   ⠦ 8cfc9a467ed7 Waiting                                                                                          0.6s
+[0m[37m   ⠦ 2a9998409df9 Waiting                                                                                          0.6s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠼ redis Pulling                                                                                                   4.5s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠧ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.7s
+[0m[37m   ⠧ f0036f71a6fe Pulling fs layer                                                                                 0.7s
+[0m[37m   ⠧ cd7ddcecb993 Pulling fs layer                                                                                 0.7s
+[0m[37m   ⠧ 8cfc9a467ed7 Waiting                                                                                          0.7s
+[0m[37m   ⠧ 2a9998409df9 Waiting                                                                                          0.7s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠴ redis Pulling                                                                                                   4.6s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠇ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.8s
+[0m[37m   ⠇ f0036f71a6fe Pulling fs layer                                                                                 0.8s
+[0m[37m   ⠇ cd7ddcecb993 Pulling fs layer                                                                                 0.8s
+[0m[37m   ⠇ 8cfc9a467ed7 Waiting                                                                                          0.8s
+[0m[37m   ⠇ 2a9998409df9 Waiting                                                                                          0.8s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠦ redis Pulling                                                                                                   4.7s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠏ 05b1f5f3b2c0 Pulling fs layer                                                                                 0.9s
+[0m[37m   ⠏ f0036f71a6fe Pulling fs layer                                                                                 0.9s
+[0m[37m   ⠏ cd7ddcecb993 Pulling fs layer                                                                                 0.9s
+[0m[37m   ⠏ 8cfc9a467ed7 Waiting                                                                                          0.9s
+[0m[37m   ⠏ 2a9998409df9 Waiting                                                                                          0.9s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠧ redis Pulling                                                                                                   4.8s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠋ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.0s
+[0m[37m   ⠋ f0036f71a6fe Pulling fs layer                                                                                 1.0s
+[0m[37m   ⠋ cd7ddcecb993 Pulling fs layer                                                                                 1.0s
+[0m[37m   ⠋ 8cfc9a467ed7 Waiting                                                                                          1.0s
+[0m[37m   ⠋ 2a9998409df9 Waiting                                                                                          1.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠇ redis Pulling                                                                                                   4.9s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠙ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.1s
+[0m[37m   ⠙ f0036f71a6fe Pulling fs layer                                                                                 1.1s
+[0m[37m   ⠙ cd7ddcecb993 Pulling fs layer                                                                                 1.1s
+[0m[37m   ⠙ 8cfc9a467ed7 Waiting                                                                                          1.1s
+[0m[37m   ⠙ 2a9998409df9 Waiting                                                                                          1.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠏ redis Pulling                                                                                                   5.0s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠹ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.2s
+[0m[37m   ⠹ f0036f71a6fe Pulling fs layer                                                                                 1.2s
+[0m[37m   ⠹ cd7ddcecb993 Pulling fs layer                                                                                 1.2s
+[0m[37m   ⠹ 8cfc9a467ed7 Waiting                                                                                          1.2s
+[0m[37m   ⠹ 2a9998409df9 Waiting                                                                                          1.2s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠋ redis Pulling                                                                                                   5.1s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠸ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.3s
+[0m[37m   ⠸ f0036f71a6fe Pulling fs layer                                                                                 1.3s
+[0m[37m   ⠸ cd7ddcecb993 Pulling fs layer                                                                                 1.3s
+[0m[37m   ⠸ 8cfc9a467ed7 Waiting                                                                                          1.3s
+[0m[37m   ⠸ 2a9998409df9 Waiting                                                                                          1.3s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠙ redis Pulling                                                                                                   5.2s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠼ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.4s
+[0m[37m   ⠼ f0036f71a6fe Pulling fs layer                                                                                 1.4s
+[0m[37m   ⠼ cd7ddcecb993 Pulling fs layer                                                                                 1.4s
+[0m[37m   ⠼ 8cfc9a467ed7 Waiting                                                                                          1.4s
+[0m[37m   ⠼ 2a9998409df9 Waiting                                                                                          1.4s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠹ redis Pulling                                                                                                   5.3s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠴ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.5s
+[0m[37m   ⠴ f0036f71a6fe Pulling fs layer                                                                                 1.5s
+[0m[37m   ⠴ cd7ddcecb993 Pulling fs layer                                                                                 1.5s
+[0m[37m   ⠴ 8cfc9a467ed7 Waiting                                                                                          1.5s
+[0m[37m   ⠴ 2a9998409df9 Waiting                                                                                          1.5s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠸ redis Pulling                                                                                                   5.4s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠦ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.6s
+[0m[37m   ⠦ f0036f71a6fe Pulling fs layer                                                                                 1.6s
+[0m[37m   ⠦ cd7ddcecb993 Pulling fs layer                                                                                 1.6s
+[0m[37m   ⠦ 8cfc9a467ed7 Waiting                                                                                          1.6s
+[0m[37m   ⠦ 2a9998409df9 Waiting                                                                                          1.6s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠼ redis Pulling                                                                                                   5.5s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠧ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.7s
+[0m[37m   ⠧ f0036f71a6fe Pulling fs layer                                                                                 1.7s
+[0m[37m   ⠧ cd7ddcecb993 Pulling fs layer                                                                                 1.7s
+[0m[37m   ⠧ 8cfc9a467ed7 Waiting                                                                                          1.7s
+[0m[37m   ⠧ 2a9998409df9 Waiting                                                                                          1.7s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠴ redis Pulling                                                                                                   5.6s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠇ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.8s
+[0m[37m   ⠇ f0036f71a6fe Pulling fs layer                                                                                 1.8s
+[0m[37m   ⠇ cd7ddcecb993 Pulling fs layer                                                                                 1.8s
+[0m[37m   ⠇ 8cfc9a467ed7 Waiting                                                                                          1.8s
+[0m[37m   ⠇ 2a9998409df9 Waiting                                                                                          1.8s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠦ redis Pulling                                                                                                   5.7s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠏ 05b1f5f3b2c0 Pulling fs layer                                                                                 1.9s
+[0m[37m   ⠏ f0036f71a6fe Pulling fs layer                                                                                 1.9s
+[0m[37m   ⠏ cd7ddcecb993 Pulling fs layer                                                                                 1.9s
+[0m[37m   ⠏ 8cfc9a467ed7 Waiting                                                                                          1.9s
+[0m[37m   ⠏ 2a9998409df9 Waiting                                                                                          1.9s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠧ redis Pulling                                                                                                   5.8s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠋ 05b1f5f3b2c0 Pulling fs layer                                                                                 2.0s
+[0m[37m   ⠋ f0036f71a6fe Pulling fs layer                                                                                 2.0s
+[0m[37m   ⠋ cd7ddcecb993 Pulling fs layer                                                                                 2.0s
+[0m[37m   ⠋ 8cfc9a467ed7 Waiting                                                                                          2.0s
+[0m[37m   ⠋ 2a9998409df9 Waiting                                                                                          2.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠇ redis Pulling                                                                                                   5.9s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠙ 05b1f5f3b2c0 Pulling fs layer                                                                                 2.1s
+[0m[37m   ⠙ f0036f71a6fe Pulling fs layer                                                                                 2.1s
+[0m[37m   ⠙ cd7ddcecb993 Pulling fs layer                                                                                 2.1s
+[0m[37m   ⠙ 8cfc9a467ed7 Waiting                                                                                          2.1s
+[0m[37m   ⠙ 2a9998409df9 Waiting                                                                                          2.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠏ redis Pulling                                                                                                   6.0s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠹ 05b1f5f3b2c0 Pulling fs layer                                                                                 2.2s
+[0m[37m   ⠹ f0036f71a6fe Pulling fs layer                                                                                 2.2s
+[0m[37m   ⠹ cd7ddcecb993 Pulling fs layer                                                                                 2.2s
+[0m[37m   ⠹ 8cfc9a467ed7 Waiting                                                                                          2.2s
+[0m[37m   ⠹ 2a9998409df9 Waiting                                                                                          2.2s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠋ redis Pulling                                                                                                   6.1s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠸ 05b1f5f3b2c0 Downloading [=====================>                             ]     ...                        2.3s
+[0m[37m   ⠸ f0036f71a6fe Pulling fs layer                                                                                 2.3s
+[0m[37m   ⠸ cd7ddcecb993 Pulling fs layer                                                                                 2.3s
+[0m[37m   ⠸ 8cfc9a467ed7 Waiting                                                                                          2.3s
+[0m[37m   ⠸ 2a9998409df9 Waiting                                                                                          2.3s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/7
+[37m ⠙ redis Pulling                                                                                                   6.2s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[37m   ⠼ 05b1f5f3b2c0 Extracting [==================================================>]  1.732kB/1...                   2.4s
+[0m[37m   ⠼ f0036f71a6fe Downloading [>                                                  ]  14.44kB/...                   2.4s
+[0m[37m   ⠼ cd7ddcecb993 Downloading [>                                                  ]  97.62kB/...                   2.4s
+[0m[37m   ⠼ 8cfc9a467ed7 Waiting                                                                                          2.4s
+[0m[37m   ⠼ 2a9998409df9 Waiting                                                                                          2.4s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/7
+[37m ⠹ redis Pulling                                                                                                   6.3s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[37m   ⠴ f0036f71a6fe Downloading [===================>                               ]  555.4kB/...                   2.5s
+[0m[37m   ⠴ cd7ddcecb993 Downloading [>                                                  ]  97.62kB/...                   2.5s
+[0m[37m   ⠴ 8cfc9a467ed7 Waiting                                                                                          2.5s
+[0m[37m   ⠴ 2a9998409df9 Waiting                                                                                          2.5s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/7
+[37m ⠸ redis Pulling                                                                                                   6.4s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[37m   ⠦ f0036f71a6fe Extracting [=>                                                 ]  32.77kB/1...                   2.6s
+[0m[37m   ⠦ cd7ddcecb993 Downloading [===>                                               ]  589.1kB/...                   2.6s
+[0m[37m   ⠦ 8cfc9a467ed7 Waiting                                                                                          2.6s
+[0m[37m   ⠦ 2a9998409df9 Waiting                                                                                          2.6s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠼ redis Pulling                                                                                                   6.5s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠧ cd7ddcecb993 Downloading [========>                                          ]  1.596MB/...                   2.7s
+[0m[37m   ⠧ 8cfc9a467ed7 Waiting                                                                                          2.7s
+[0m[37m   ⠧ 2a9998409df9 Waiting                                                                                          2.7s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠴ redis Pulling                                                                                                   6.6s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠇ cd7ddcecb993 Downloading [===============>                                   ]  2.988MB/...                   2.8s
+[0m[37m   ⠇ 8cfc9a467ed7 Waiting                                                                                          2.8s
+[0m[37m   ⠇ 2a9998409df9 Waiting                                                                                          2.8s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠦ redis Pulling                                                                                                   6.7s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠏ cd7ddcecb993 Downloading [======================>                            ]  4.377MB/...                   2.9s
+[0m[37m   ⠏ 8cfc9a467ed7 Waiting                                                                                          2.9s
+[0m[37m   ⠏ 2a9998409df9 Waiting                                                                                          2.9s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠧ redis Pulling                                                                                                   6.8s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠋ cd7ddcecb993 Downloading [=============================>                     ]  5.655MB/...                   3.0s
+[0m[37m   ⠋ 8cfc9a467ed7 Waiting                                                                                          3.0s
+[0m[37m   ⠋ 2a9998409df9 Waiting                                                                                          3.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠇ redis Pulling                                                                                                   6.9s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠙ cd7ddcecb993 Downloading [===================================>               ]  6.749MB/...                   3.1s
+[0m[37m   ⠙ 8cfc9a467ed7 Waiting                                                                                          3.1s
+[0m[37m   ⠙ 2a9998409df9 Waiting                                                                                          3.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠏ redis Pulling                                                                                                   7.0s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠹ cd7ddcecb993 Downloading [=========================================>         ]  7.842MB/...                   3.2s
+[0m[37m   ⠹ 8cfc9a467ed7 Waiting                                                                                          3.2s
+[0m[37m   ⠹ 2a9998409df9 Waiting                                                                                          3.2s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠋ redis Pulling                                                                                                   7.1s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠸ cd7ddcecb993 Download complete                                                                                3.3s
+[0m[37m   ⠸ 8cfc9a467ed7 Waiting                                                                                          3.3s
+[0m[37m   ⠸ 2a9998409df9 Download complete                                                                                3.3s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠙ redis Pulling                                                                                                   7.2s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠼ cd7ddcecb993 Extracting      [>                                                  ] ...                        3.4s
+[0m[37m   ⠼ 8cfc9a467ed7 Waiting                                                                                          3.4s
+[0m[37m   ⠼ 2a9998409df9 Download complete                                                                                3.4s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠹ redis Pulling                                                                                                   7.3s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠴ cd7ddcecb993 Extracting      [=============>                                     ] ...                        3.5s
+[0m[37m   ⠴ 8cfc9a467ed7 Waiting                                                                                          3.5s
+[0m[37m   ⠴ 2a9998409df9 Download complete                                                                                3.5s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠸ redis Pulling                                                                                                   7.4s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠦ cd7ddcecb993 Extracting      [===========================>                       ] ...                        3.6s
+[0m[37m   ⠦ 8cfc9a467ed7 Download complete                                                                                3.6s
+[0m[37m   ⠦ 2a9998409df9 Download complete                                                                                3.6s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 3/7
+[37m ⠼ redis Pulling                                                                                                   7.5s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[37m   ⠧ cd7ddcecb993 Extracting      [==========================================>        ] ...                        3.7s
+[0m[37m   ⠧ 8cfc9a467ed7 Download complete                                                                                3.7s
+[0m[37m   ⠧ 2a9998409df9 Download complete                                                                                3.7s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 5/7
+[37m ⠴ redis Pulling                                                                                                   7.6s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[34m   ⠿ cd7ddcecb993 Pull complete                                                                                    3.7s
+[0m[34m   ⠿ 8cfc9a467ed7 Pull complete                                                                                    3.8s
+[0m[37m   ⠇ 2a9998409df9 Extracting [==================================================>]     57...                       3.8s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 7/7[0m
+[34m ⠿ redis Pulled                                                                                                    7.7s
+[0m[34m   ⠿ 7a6db449b51b Already exists                                                                                   0.0s
+[0m[34m   ⠿ 05b1f5f3b2c0 Pull complete                                                                                    2.4s
+[0m[34m   ⠿ f0036f71a6fe Pull complete                                                                                    2.7s
+[0m[34m   ⠿ cd7ddcecb993 Pull complete                                                                                    3.7s
+[0m[34m   ⠿ 8cfc9a467ed7 Pull complete                                                                                    3.8s
+[0m[34m   ⠿ 2a9998409df9 Pull complete                                                                                    3.9s
+[0m[?25h[1A[1B[0G[?25l[+] Running 1/0
+[37m ⠋ Container todo-backend-redis-1  Creating                                                                        0.0s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠙ Container todo-backend-redis-1  Creating                                                                        0.1s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.2s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.3s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.4s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.5s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-redis-1  Started                                                                         0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml up -d[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C exec -it todo-backend-mongo-1 mongosh -u root -p example[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmongosh -u ro[21P[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C-compose -f docker-comp[Cse.dev.yml up -d[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it todo-backend-mongo-1 bashmongo[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker exec -it todo-backend-mongo-1 mongo[K[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CRMONGO_URL=mongodb://the_user[1@n[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [CEMONGO_URL=mongodb://the_use[1@r[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[CDMONGO_URL=mongodb://the_us[1@e[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[CIMONGO_URL=mongodb://the_u[1@s[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[CSMONGO_URL=mongodb://the_[1@u[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C_MONGO_URL=mongodb://the[1@_[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[CUMONGO_URL=mongodb://th[1@e[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[CRMONGO_URL=mongodb://t[1@h[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[CLMONGO_URL=mongodb://[1@t[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C=MONGO_URL=mongodb:/[1@/[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C MONGO_URL=mongodb:[C[1@/[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[Cr MONGO_URL=mongodb[1@:[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[Ce MONGO_URL=mongod[1@b[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cd MONGO_URL=mongo[1@d[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ci MONGO_URL=mong[1@o[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cs MONGO_URL=mon[1@g[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: MONGO_URL=mo[1@n[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ MONGO_URL=m[1@o[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ MONGO_URL=[1@m[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl MONGO_URL[1@=[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co MONGO_UR[1@L[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc MONGO_U[1@R[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca MONGO_[1@U[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl MONGO[1@_[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch MONG[1@O[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co MON[1@G[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs MO[1@N[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct M[1@O[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: [1@M[1@6[1@3[1@7[1@9
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[33m3000[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:513:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:157:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:122:3)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:83:21)[39m {
+  errno: [33m-111[39m,
+  code: [32m'ECONNREFUSED'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m6379[39m
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:63[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:637[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 [1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 M[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MO[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MON[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MONG[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MONGO[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr:6379 MONG[1@O[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce:6379 MON[1@G[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd:6379 MO[1@N[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci:6379 M[1@O[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs:6379 [1@M[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[33m3000[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: getaddrinfo ENOTFOUND redis
+[90m    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:513:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:157:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:122:3)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:83:21)[39m {
+  errno: [33m-3008[39m,
+  code: [32m'ENOTFOUND'[39m,
+  syscall: [32m'getaddrinfo'[39m,
+  hostname: [32m'redis'[39m
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://redis:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 M[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MO[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MON[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MONG[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:6379 MONGO[1P[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl:6379 MONG[1@O[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co:6379 MON[1@G[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc:6379 MO[1@N[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca:6379 M[1@O[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl:6379 [1@M[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch:6379[1@ [A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co:637[1@9[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs:63[1@7[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct:6[1@3[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[33m3000[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:513:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:157:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:122:3)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:83:21)[39m {
+  errno: [33m-111[39m,
+  code: [32m'ECONNREFUSED'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m6379[39m
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+{ getAsync: [36m[Function: bound get][39m, setAsync: [36m[Function: bound set][39m }
+[33m3000[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ECONNREFUSED 127.0.0.1:6379
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)[39m
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:342:14[90m)[39m
+    at Socket.<anonymous> [90m(/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend/[39mnode_modules/[4mredis[24m/index.js:223:14[90m)[39m
+[90m    at Socket.emit (node:events:513:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:157:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:122:3)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:83:21)[39m {
+  errno: [33m-111[39m,
+  code: [32m'ECONNREFUSED'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m6379[39m
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Credis:6379 [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocalhost:6[4@379 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml up -d[K[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml up -d[K[K[K[K[K[Kdown
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-redis-1  Stopping                                                                        0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                        0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-redis-1  Stopping                                                                        0.2s
+[0m[37m ⠙ Container todo-backend-mongo-1  Stopping                                                                        0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠹ Container todo-backend-redis-1  Stopping                                                                        0.3s
+[0m[37m ⠹ Container todo-backend-mongo-1  Stopping                                                                        0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠸ Container todo-backend-redis-1  Stopping                                                                        0.4s
+[0m[37m ⠸ Container todo-backend-mongo-1  Stopping                                                                        0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠼ Container todo-backend-redis-1  Stopping                                                                        0.5s
+[0m[37m ⠼ Container todo-backend-mongo-1  Stopping                                                                        0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠴ Container todo-backend-redis-1  Stopping                                                                        0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                         0.6s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠿ Container todo-backend-redis-1  Removing                                                                        0.7s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                         0.6s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                         0.7s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                         0.6s
+[0m[37m ⠋ Network todo-backend_default    Removing                                                                        0.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                         0.7s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                         0.6s
+[0m[37m ⠙ Network todo-backend_default    Removing                                                                        0.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                         0.7s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                         0.6s
+[0m[34m ⠿ Network todo-backend_default    Removed                                                                         0.2s
+[0m[?25h]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml down[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Credis:6379 [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clocalhost:6[4@379 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml up -d[K[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C exec -it todo-backend-mongo-1 mongosh -u root -p example[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ [C[C[C[C[C[C-compose -f docker-comp[17Pose.dev.yml up -d
+[1A[1B[0G[?25l[+] Running 1/0
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Creating                                                                        0.0s
+[0m[37m ⠋ Container todo-backend-redis-1  Creating                                                                        0.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠙ Container todo-backend-mongo-1  Creating                                                                        0.1s
+[0m[34m ⠿ Container todo-backend-redis-1  Created                                                                         0.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.2s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.3s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.3s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.4s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.4s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.5s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.5s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.6s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.6s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.7s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.7s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.8s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.8s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        0.9s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        0.9s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.0s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        1.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                                        1.1s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                                        1.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Network todo-backend_default    Created                                                                         0.1s
+[0m[34m ⠿ Container todo-backend-mongo-1  Started                                                                         1.1s
+[0m[34m ⠿ Container todo-backend-redis-1  Started                                                                         1.1s
+[0m[?25h]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml up -d[1Pdown[A]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+{ getAsync: [36m[Function: bound get][39m, setAsync: [36m[Function: bound set][39m }
+[33m3000[39m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[33m3000[39m
+[0mGET /statistics [33m404 [0m2.999 ms - 149[0m
+[0mGET /statistics [33m404 [0m0.689 ms - 149[0m
+[0mGET / [32m200 [0m1.402 ms - 127[0m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[33m3000[39m
+[0mGET / [36m304 [0m2.874 ms - -[0m
+[0mGET /statistics [33m404 [0m1.100 ms - 149[0m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[33m3000[39m
+[0mGET /statistics [33m404 [0m2.400 ms - 149[0m
+[0mGET /statistics [33m404 [0m0.617 ms - 149[0m
+[0mGET /todos [32m200 [0m15.291 ms - 148[0m
+XD
+[1mnull[22m
+[0mGET /todos/statistics [32m200 [0m1.942 ms - 2[0m
+XD
+[1mnull[22m
+[0mGET /todos/statistics [36m304 [0m2.442 ms - -[0m
+[0mPOST /todos [32m200 [0m34.220 ms - 55[0m
+XD
+1
+[0mGET /todos/statistics [36m304 [0m2.152 ms - -[0m
+XD
+1
+[0mGET /todos/statistics [36m304 [0m2.203 ms - -[0m
+[0mGET /todos [32m200 [0m5.295 ms - 204[0m
+[0mPOST /todos [32m200 [0m2.945 ms - 55[0m
+[0mGET /todos [32m200 [0m4.140 ms - 260[0m
+[0mGET /todos [36m304 [0m3.714 ms - -[0m
+XD
+2
+[0mGET /todos/statistics [36m304 [0m2.032 ms - -[0m
+XD
+2
+[0mGET /todos/statistics [36m304 [0m1.746 ms - -[0m
+^C
+]0;pomasz@DESKTOP-QUSHKTT: /mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[01;32mpomasz@DESKTOP-QUSHKTT[00m:[01;34m/mnt/d/part12/fullstackopen-part12-containers/todo-app/todo-backend[00m$ REDIS_URL=redis://localhost:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[33m3000[39m
+XD
+[0mGET /todos/statistics [32m200 [0m4.275 ms - 19[0m
+[0mPOST /todos [32m200 [0m48.375 ms - 55[0m
+XD
+[0mGET /todos/statistics [32m200 [0m2.074 ms - 19[0m
+[0mPOST /todos [32m200 [0m4.682 ms - 55[0m
+XD
+[0mGET /todos/statistics [32m200 [0m1.948 ms - 19[0m
+XD
+[0mGET /todos/statistics [32m200 [0m1.473 ms - 22[0m
+[0mPOST /todos [32m200 [0m3.553 ms - 55[0m
+XD
+[0mGET /todos/statistics [32m200 [0m1.378 ms - 14[0m
+[0mPOST /todos [32m200 [0m2.500 ms - 55[0m
+XD
+[0mGET /todos/statistics [32m20
